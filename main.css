@@ -1,0 +1,107 @@
+.contact {
+  max-width: 467px;
+  min-width: 320px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.9);
+  border-radius: 5px;
+  box-shadow: 0 0 9px rgba(176,0,16,.5);
+}
+.contact * {
+  outline: none;
+  border: 0;
+  background: none;
+}
+form fieldset {
+  display: block;
+  padding: 25px 30px;
+}
+  form .row {
+    margin: 0 -15px;
+  }
+  form .col-2 {
+    width: 50%;
+  }
+  form .col {
+    float: left;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  form .row:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+   form section {
+    margin-bottom: 20px;
+  }
+  form .input, form .textarea, form .button {
+    position: relative;
+    display: block;
+  }
+  form .input + input, form .textarea + textarea {
+    padding-right: 46px;
+  }
+  form .input input, form .textarea textarea {
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    height: 39px;
+    padding: 8px 10px;
+    outline: none;
+    border: 2px solid #e5e5e5;
+    border-radius: 3px;
+    background: #fff;
+    font: 13px/19px 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #404040;
+    appearance: normal;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+    -ms-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -webkit-transition: border-color 0.3s;
+  }
+  form .textarea textarea {
+    height: auto;
+    resize: none;
+    overflow:auto;
+  }
+  form .input:hover input,
+  form .textarea:hover textarea,
+  form .checkbox:hover i {
+     border-color: #b00010;
+  }
+  form .input input:focus,
+  form .textarea textarea:focus,
+  form .checkbox input:focus + i {
+  	border-color: #96000e;
+  }
+  form .button {
+    float: right;
+    height: 39px;
+    overflow: hidden;
+    margin-left: 20px;
+    padding: 0 20px;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    background-color: #96000e;
+    font: 300 13px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+  }
+  form .button:hover {
+    opacity: 1;
+  }

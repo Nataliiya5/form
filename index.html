@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Basic page needs
+	============================================ -->
+
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+</head>
+	<body>
+		<div class="contact">
+    <form action="#">
+        <fieldset>					
+            <div class="row">
+                <section class="col col-2">
+                    <label class="input" for="name">
+                        <input type="text" placeholder="Имя" id="name"	required autofocus>
+                    </label>
+                </section>
+                <section class="col col-2">
+                    <label class="input" for="email">
+                        <input type="email" placeholder="E-mail" id="email" required autocomplete="on">
+                    </label>
+                </section>
+                <section class="col col-2">
+                    <label class="input" for="tel">
+                        <input type="tel" placeholder="Номер телефона" id="tel" required autocomplete="on">
+                    </label>
+                </section>
+                <section class="col col-2">
+                    <label class="input" for="date">
+                        <input type="date" placeholder="Дата рождения" id="date" required>
+                    </label>
+                </section>
+            </div>
+            <section>
+                <label class="input" for="topic">
+                    <input type="text" placeholder="Тема" id="topic">
+                </label>
+            </section>               
+            <section>
+                <label class="textarea" for="text">
+                    <textarea rows="4" placeholder="Сообщение" for="text" required></textarea>
+                </label>
+            </section>             
+            <button type="submit" class="button">Отправить</button>
+        </fieldset>						
+    </form>
+</div>	
+	</body>
+
+</html>
